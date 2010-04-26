@@ -91,45 +91,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Config.vb" />
-    <Compile Include="DataSetTG.Designer.vb">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>DataSetTG.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="frmAdmin.Designer.vb">
-      <DependentUpon>frmAdmin.vb</DependentUpon>
-    </Compile>
-    <Compile Include="frmAdmin.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmAdminMovie.Designer.vb">
-      <DependentUpon>frmAdminMovie.vb</DependentUpon>
-    </Compile>
-    <Compile Include="frmAdminMovie.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmAdminOrder.Designer.vb">
-      <DependentUpon>frmAdminOrder.vb</DependentUpon>
-    </Compile>
-    <Compile Include="frmAdminOrder.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="frmOrder.Designer.vb">
       <DependentUpon>frmOrder.vb</DependentUpon>
     </Compile>
     <Compile Include="frmOrder.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmUserHome.Designer.vb">
-      <DependentUpon>frmUserHome.vb</DependentUpon>
-    </Compile>
-    <Compile Include="frmUserHome.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmNewCinema.Designer.vb">
-      <DependentUpon>frmNewCinema.vb</DependentUpon>
-    </Compile>
-    <Compile Include="frmNewCinema.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmNewUser.Designer.vb">
@@ -193,28 +158,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="frmAdmin.resx">
-      <DependentUpon>frmAdmin.vb</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmAdminMovie.resx">
-      <DependentUpon>frmAdminMovie.vb</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmAdminOrder.resx">
-      <DependentUpon>frmAdminOrder.vb</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmNewCinema.resx">
-      <DependentUpon>frmNewCinema.vb</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
     <EmbeddedResource Include="frmOrder.resx">
       <DependentUpon>frmOrder.vb</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmUserHome.resx">
-      <DependentUpon>frmUserHome.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="frmLogin.resx">
@@ -254,17 +199,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <None Include="DataSetTG.xsc">
-      <DependentUpon>DataSetTG.xsd</DependentUpon>
-    </None>
-    <None Include="DataSetTG.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>DataSetTG.Designer.vb</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="DataSetTG.xss">
-      <DependentUpon>DataSetTG.xsd</DependentUpon>
-    </None>
     <None Include="My Project\app.manifest" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
